@@ -5,8 +5,8 @@ This Java application implements three different algorithms for matrix multiplic
 ## Algorithms
 
 Classic matrix multiplication: The standard algorithm for multiplying two matrices using nested loops.
-Naive divide-and-conquer: A recursive algorithm that divides the matrices into smaller submatrices and multiplies them in a divide-and-conquer fashion.
-Strassen's algorithm: A faster algorithm for matrix multiplication that uses a divide-and-conquer approach and relies on clever matrix manipulation to reduce the number of multiplications required.
+Naive divide-and-conquer: A recursive algorithm that divides the matrices into smaller submatrices, multiplies them, then putting them back together.
+Strassen's algorithm: A faster algorithm for matrix multiplication using a divide-and-conquer approach and relies on matrix manipulation to reduce the number of multiplications required by 1 for each step.
 
 ## Timer
 
